@@ -1,0 +1,27 @@
+{
+  "name": "jsmake-sample",
+  "description": "Sample plugin for jsmake",
+  "keywords": [
+    "jsmake",
+    "sample",
+    "plugin"
+  ],
+  "version": "0.0.1",
+  "homepage": "",
+  "author": "Eser Ozvataf <eser@ozvataf.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eserozvataf/jsmake-sample.git"
+  },
+  "license": "ISC",
+  "main": "./lib/index.js",
+  "main:jsmake": "./lib/jsmake.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
